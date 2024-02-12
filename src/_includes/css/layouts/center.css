@@ -1,0 +1,4 @@
+.center {
+  inline-size: min(100% - calc(2 * var(--s-0)), 60ch);
+  margin-inline: auto;
+}

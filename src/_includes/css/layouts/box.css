@@ -1,0 +1,4 @@
+.box {
+  border:  0.125rem solid;
+  padding: var(--s-0);
+}

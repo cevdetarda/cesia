@@ -1,0 +1,18 @@
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-0);
+}
+
+.sidebar> :first-child {
+  /* The width when the sidebar _is_ a sidebar */
+  flex-basis: 20rem;
+  flex-grow: 1;
+}
+
+.sidebar> :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  /* Wrap when the elements are of equal width */
+  min-inline-size: 50%;
+}

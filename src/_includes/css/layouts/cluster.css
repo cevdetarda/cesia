@@ -1,0 +1,63 @@
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-0);
+
+  /*
+  Those are the default values so if you are OK with those behaviour you don't need to add other classes.
+    justify-content: flex-start;
+    align-items: flex-start;
+  */
+}
+
+/* 
+  Didn't add something like this:
+    justify-content: flex-start; 
+  because in default mode, browser gives flexbox layouts:
+    justify-content: normal;
+  and 'normal' is 'flex-start' in flexbox and 'stretch' in grid.
+*/
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* 
+  Didn't add something like this:
+    align-items: flex-start;
+  because in default mode, browser gives flexbox layouts:
+    align-items: normal;
+  and 'normal' is 'flex-start' in flexbox and 'stretch' in grid.
+*/
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}

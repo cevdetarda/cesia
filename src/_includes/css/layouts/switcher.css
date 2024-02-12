@@ -1,0 +1,21 @@
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-0);
+  /* ↓ The width at which the layout “breaks” */
+  --threshold: 30rem;
+}
+
+.switcher>* {
+  /* ↓ Allow children to grow */
+  flex-grow: 1;
+  /* ↓ Switch the layout at the --threshold */
+  flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+.switcher> :nth-last-child(n+5),
+.switcher> :nth-last-child(n+5)~* {
+  /* ↓ Switch to a vertical configuration if
+  there are more than 4 child elements */
+  flex-basis: 100%;
+}
