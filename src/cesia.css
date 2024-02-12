@@ -1,3 +1,16 @@
 @import 'css/theme.css';
 @import 'css/reset.css';
 @import 'css/typography.css';
+
+/* Layouts */
+@import 'css/layouts/box.css';
+@import 'css/layouts/center.css';
+@import 'css/layouts/stack.css';
+@import 'css/layouts/flow.css';
+@import 'css/layouts/cluster.css';
+@import 'css/layouts/sidebar.css';
+@import 'css/layouts/switcher.css';
+@import 'css/layouts/cover.css';
+@import 'css/layouts/grid.css';
+@import 'css/layouts/frame.css';
+@import 'css/layouts/reel.css';
