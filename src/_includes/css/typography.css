@@ -1,0 +1,19 @@
+body {
+  font-size: var(--s-0);
+}
+
+h1 {
+  font-size: var(--s-4);
+}
+
+h2 {
+  font-size: var(--s-3);
+}
+
+h3 {
+  font-size: var(--s-2);
+}
+
+blockquote, h4 {
+  font-size: var(--s-1);
+}
